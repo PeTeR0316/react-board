@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+div.boardTable {
+    padding: 0 10%;
+}
+
+p.totalCnt {
+    font-size: 14px;
+}
+
+p.totalCnt > span {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border : 1px solid #000000;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+tr {
+    border: 1px solid #dddddd;
+    border-top: 1px solid #000;
+    height: 30px;
+    line-height: 30px;
+}
+
+tr:first-child {
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+td {
+    border-bottom : 1px solid #dddddd;
+    text-align: center;
+}
+
+td:first-child {
+    width: 40px;
+}
+
+ul.boardListNum {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+ul.boardListNum > li {
+    display: inline-block;
+    width: 20px;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+
+ul.boardListNum > li:not(:last-child) {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a.writeBtn {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+div.searchArea {
+    text-align: center;
+    margin-top: 5px;
+}
+
+div.searchArea > select,
+div.searchArea > input {
+    margin-right: 10px;
+    height: 25px;
+    vertical-align: top;
+    padding: 0;
+    border: 1px solid #000;
+}
+
+div.searchArea > input {
+    padding-left: 5px;
+}
+
+div.searchArea > button {
+    border: none;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #000;
+    color: #fff;
+}

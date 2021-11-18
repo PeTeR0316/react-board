@@ -1,0 +1,74 @@
+/* 공통으로 적용할 css 파일에 옮기기 */
+ul {
+    list-style: none;
+    padding: 0;
+}
+/**********************************/
+
+div.writeBoard {
+    margin: 50px 10%;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+}
+
+div.writeBoard > form > ul > li {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    border: 1px solid #dddddd;
+}
+
+div.writeBoard > form > ul > li:last-child {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #dddddd;
+}
+
+
+ul > li > input {
+    width: 100%;
+    outline: none;
+    padding: 0px 5px;
+}
+
+ul > li > input.sendFile {
+    /* opacity: 0; */
+}
+
+ul > li > textarea.contentArea {
+    width: 500px;
+    height: 600px;
+    resize: none;
+    outline: none;
+}
+
+
+div.btns > button {
+    text-align: right;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+div.btns > button:not(:last-child) {
+    margin-right: 10px;
+}
+
+/* button {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+} */

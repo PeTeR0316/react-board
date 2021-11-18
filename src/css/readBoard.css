@@ -1,0 +1,61 @@
+div.readBoard {
+    margin: 50px 10%;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+}
+/* 
+li {
+    padding: 10px 5px;
+} */
+
+li.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li.writer {
+    border-bottom: 1px solid #dddddd;
+    font-weight: bold;
+}
+
+li.writer > span {
+    font-size: 13px;
+    width: 200px;
+    color: #aaaaaa;
+    font-weight: normal;
+}
+
+div.contentBox {
+    width: 100%;
+    min-height: 300px;
+}
+
+a.modify {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+div.btns > button {
+    text-align: right;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+div.btns > button:not(:last-child) {
+    margin-right: 10px;
+}
